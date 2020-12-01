@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link href="https://code.jquery.com/jquery-3.4.1.min.js" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" />
+    <link href="https://code.jquery.com/jquery-3.4.1.min.js" />
+</head>
+
+<body>
+    <div class="">
+        <!-- carousel================================================== -->
+        <div class="home container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div id="demo" class="carousel slide " data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <img src="https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80" alt="Los Angeles">
+                                <div class="carousel-caption">
+                                    <h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./image/img-years-of-trust.png" alt="Chicago">
+                                <div class="carousel-caption">
+                                    <h3>Chicago</h3>
+                                    <p>Thank you, Chicago!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="ny.jpg" alt="New York">
+                                <div class="carousel-caption">
+                                    <h3>New York</h3>
+                                    <p>We love the Big Apple!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- nav section========================================================== -->
+            <nav class="nav fixed-top">
+
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a href="#"><img src="./image/logo-celeste.png" /></a>
+                    </div>
+                    <div id="mainListDiv" class="main_list">
+                        <ul class="navlinks">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#result">Result</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+                </div>
+            </nav>
+
+        </div>
+        <!-- welcome section========================================== -->
+        <div class="container-fluid p-5 result-con" id="result">
+            <div class="row dash-box ml-1 bg-light">
+                <div class="col-xxl-4 col-lg-8 dashbox-col">
+                    <h1>Welcome to Voting Result!</h1>
+                    <p class="lead">
+                        When people cast their vote, they are actually voting for a group of people called electors.
+                    </p>
+                </div>
+                <div class="col-xxl-2 col-lg-4">
+                    <img class="img-fluid" src="./image/at-work.svg" />
+                </div>
+            </div>
+        </div>
+        <!-- leaders section======================================== -->
+        <div class="container-fluid lead-con p-5">
+            <div class="row">
+                <div class="col-md-4 mask">
+                    <div class="card card1 profile-card-3">
+                        <div class="background-block ">
+                            <img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background" />
+
+                        </div>
+                        <div class="profile-thumb-block">
+                            <img src="./image/8_avatar-512.png" alt="profile-image" class="profile" />
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <h2>MMK<small>Suga</small></h3>
+                                <div class="icon-block"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                                    <a href="#"> <i class="fa fa-google-plus"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                    <p class="mt-3 w-100 float-left text-center"><strong>Political Leader</strong></p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card1 profile-card-3">
+                        <div class="background-block">
+                            <img src="./image/pngtree-colorful-fruit-logo-icon-template-png-image_3563732.jpg" alt="profile-sample1" class="background" />
+                        </div>
+                        <div class="profile-thumb-block">
+                            <img src="./image/8_avatar-512.png" alt="profile-image" class="profile" />
+                        </div>
+                        <div class="card-content">
+                            <h2>JJMK<small>Satheesh</small></h3>
+                                <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                                    <a href="#"> <i class="fa fa-google-plus"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                    <p class="mt-3 w-100 float-left text-center"><strong>Political Leader</strong></p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card1 profile-card-3">
+                        <div class="background-block">
+                            <img src="./image/images.png" alt="profile-sample1" class="background" />
+                        </div>
+                        <div class="profile-thumb-block">
+                            <img src="./image/8_avatar-512.png" alt="profile-image" class="profile" />
+                        </div>
+                        <div class="card-content">
+                            <h2>SSMK<small>Selva</small></h3>
+                                <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                                    <a href="#"> <i class="fa fa-google-plus"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                    <p class="mt-3 w-100 float-left text-center"><strong>Political Leader</strong></p>
+                </div>
+            </div>
+        </div>
+        <!-- twocards section=================================== -->
+        <div class="container-fluid p-5 twocards-con">
+            <div class="row">
+                <div class="col-md-12 twocards-head">
+                    <h1>The Leading Result</h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 col-sm-12 item">
+                    <div class="card card1 item-card card1 card-block twocards">
+                        <div class="row twocards-item">
+                            <div class="col-md-6 col-sm-12 item-img">
+
+                                <img src="./image/images.png" alt="Photo of sunset">
+                                <h2 class="card-title  mt-3 mb-3">13,89,900<span class="text-success"> (7 Zones)</span></h2>
+                                <p class="card-text mb-3">Leading of this election.</p>
+                            </div>
+
+                            <div class="col-md-6 col-sm-12 item-img">
+
+                                <img src="./image/8_avatar-512.png" alt="Photo of sunset">
+                                <h2 class="card-title  mt-3 mb-3">SSMK (Selva)</h2>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 item">
+                    <div class="card card1 item-card card1 card-block twocards">
+                        <div class="row no-gutters">
+                            <div class="col-md-6 col-sm-12 item-img">
+
+                                <img src="./image/md_5af5a9fa840c1.jpg" alt="Photo of sunset">
+                                <h2 class="card-title  mt-3 mb-3">13,11,900<span class="text-success"> (5 Zones)</span></h2>
+                                <p class="card-text mb-3">Runer of this election.</p>
+                            </div>
+
+                            <div class="col-md-6 col-sm-12 item-img">
+
+                                <img src="./image/8_avatar-512.png" alt="Photo of sunset">
+                                <h2 class="card-title  mt-3 mb-3">MMK (suga)</h2>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- zone list vise result section=========================== -->
+        <div class="container-fluid p-5 zone-con">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card1 card-counter primary">
+                        <i class="res-logo"><img src="./image/pngtree-colorful-fruit-logo-icon-template-png-image_3563732.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">12</span>
+                        <span class="count-name">JJMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>JJMK-Vel<small> (Alangulam Zone)</small></h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card card1 card-counter danger">
+                        <i class="res-logo"><img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">599</span>
+                        <span class="count-name">MMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>MMK-Kailash<small> (NKL Zone)</small></h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card card1 card-counter success">
+                        <i class="res-logo"><img src="./image/images.png" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">6875</span>
+                        <span class="count-name">SSMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>SSMK-Raja<small> (Tenkasi Zone)</small></h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card-counter card card1 info">
+
+                        <i class="res-logo"><img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">35</span>
+
+                        <span class="count-name">JJMK </span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>MMK-Harish<small> (TVL Zone)</small></h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-counter card card1 success">
+                        <i class="res-logo"><img src="./image/images.png" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">5645</span>
+                        <span class="count-name">SSMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>SSMK-Guna<small> (Teni Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 info">
+
+                        <i class="res-logo"><img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">353</span>
+
+                        <span class="count-name">JJMK </span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>MMK-Hari<small> (TKL Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 primary">
+                        <i class="res-logo"><img src="./image/pngtree-colorful-fruit-logo-icon-template-png-image_3563732.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">4512</span>
+                        <span class="count-name">JJMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>JJMK-VelRaj<small> (Mumbai Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 danger">
+                        <i class="res-logo"><img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">99</span>
+                        <span class="count-name">MMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>MMK-Kail<small> (Verginiya Zone)</small></h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-counter card card1 info">
+
+                        <i class="res-logo"><img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">345</span>
+
+                        <span class="count-name">JJMK </span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>MMK-satheish<small> (Surandai Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 success">
+                        <i class="res-logo"><img src="./image/images.png" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">875</span>
+                        <span class="count-name">SSMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>SSMK-Raj<small> (Tirupathi Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 success">
+                        <i class="res-logo"><img src="./image/images.png" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">75</span>
+                        <span class="count-name">SSMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>SSMK-Manoj<small> (SKL Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 primary">
+                        <i class="res-logo"><img src="./image/pngtree-colorful-fruit-logo-icon-template-png-image_3563732.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">124</span>
+                        <span class="count-name">JJMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>JJMK-Mari<small> (Ambai Zone)</small></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-counter card card1 primary">
+                        <i class="res-logo"><img src="./image/pngtree-colorful-fruit-logo-icon-template-png-image_3563732.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">189</span>
+                        <span class="count-name">JJMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>JJMK-Sabari<small> (Madurai Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 info">
+
+                        <i class="res-logo"><img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background"/></i>
+                        <span class="count-numbers">3095</span>
+
+                        <span class="count-name">JJMK </span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>MMK-Suresh<small> (Selam Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 success">
+                        <i class="res-logo"><img src="./image/images.png" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">8975</span>
+                        <span class="count-name">SSMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>SSMK-Raja<small> (KKRI Zone)</small></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-counter card card1 danger">
+                        <i class="res-logo"><img src="./image/md_5af5a9fa840c1.jpg" alt="profile-sample1" class="background"/></i>
+
+                        <span class="count-numbers">999</span>
+                        <span class="count-name">MMK</span>
+                    </div>
+                    <div class="res-zone-info">
+                        <h2>MMK-Kasi<small> (UI Zone)</small></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Table section============================ -->
+        <div class="container-fluid pt-5 pb-5 table-responsive table-con">
+            <h2 class="text-center">Conditate Details</h2>
+            <p>--------with their parties and vote counting--------</p>
+
+
+            <div class="card border-info mb-3">
+                <div class="card-header">Information</div>
+                <div class="card-body text-info">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr class="bg-primary">
+                                <th>S.No</th>
+                                <th>Name</th>
+                                <th>Posting</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Zone</th>
+                                <th>Porty</th>
+                                <th>Vote</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Anna</td>
+                                <td>M.L.A</td>
+                                <td>35</td>
+                                <td>Male</td>
+                                <td>USA</td>
+                                <td>JJMK</td>
+                                <td>1234</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>JJMKVel</td>
+                                <td>M.L.A</td>
+                                <td>24</td>
+                                <td>Male</td>
+                                <td>Nagarkovil</td>
+                                <td>JJMK</td>
+                                <td>234</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Raja</td>
+                                <td>M.L.A</td>
+                                <td>25</td>
+                                <td>Male</td>
+                                <td>Tenksi</td>
+                                <td>SSMK</td>
+                                <td>1904</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Suresh</td>
+                                <td>M.L.A</td>
+                                <td>35</td>
+                                <td>Male</td>
+                                <td>TVL</td>
+                                <td>MMK</td>
+                                <td>1234</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- charts ============================= -->
+        <!-- <div class="charts-con container-fluid">
+<div class="row">
+        <div class="col-6">
+          <div class="card card1 ">
+            <div class="card-header">Vote chart</div>
+            <div class="card-body">
+              <canvas id="main" style="width: 100%; height: 500px;" ></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="  col-6">
+          <div class="card">
+            <div class="card-header">Vote chart</div>
+            <div class="card-body">
+              <canvas id="mychart" style="width: 100%; height: 500px;"></canvas>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+  </div> -->
+
+
+        <!-- Footer =====================================-->
+        <footer class="page-footer font-small special-color-dark pt-4">
+
+            <!-- Footer Elements -->
+            <div class="container footer-con">
+
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-li mx-1">
+                            <i class="fab fa-linkedin-in"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-dribbble mx-1">
+                            <i class="fab fa-dribbble"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
+
+            </div>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="./node_modules/echarts/dist/echarts.js"></script>
+
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $(".nav").addClass("affix");
+                console.log("OK");
+            } else {
+                $(".nav").removeClass("affix");
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        // based on prepared DOM, initialize echarts instance
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // specify chart configuration item and data
+        option = {
+            legend: {},
+            tooltip: {},
+            dataset: {
+                source: [
+                    ['product', '2015', '2016', '2017'],
+                    ['Matcha Latte', 43.3, 85.8, 93.7],
+                    ['Milk Tea', 83.1, 73.4, 55.1],
+                    ['Cheese Cocoa', 86.4, 65.2, 82.5],
+                    ['Walnut Brownie', 72.4, 53.9, 39.1]
+                ]
+            },
+            xAxis: {
+                type: 'category'
+            },
+            yAxis: {},
+            // Declare several bar series, each will be mapped
+            // to a column of dataset.source by default.
+            series: [{
+                type: 'bar'
+            }, {
+                type: 'bar'
+            }, {
+                type: 'bar'
+            }]
+        };
+        // use configuration item and data specified to show chart
+        myChart.setOption(option);
+        var main = echarts.init(document.getElementById('mychart'));
+
+        option = {
+            color: ['#3398DB'],
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                    type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+
+            xAxis: [{
+                type: 'category',
+                data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                axisTick: {
+                    alignWithLabel: true
+                }
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: '直接访问',
+                type: 'bar',
+                barWidth: '60%',
+                data: [10, 52, 200, 334, 390, 330, 220]
+            }]
+        };
+        main.setOption(option);
+    </script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+</body>
+
+</html>
