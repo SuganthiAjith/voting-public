@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+  @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');  
 html,
 body {
     margin: 0;
@@ -145,6 +145,7 @@ body {
         width: 100%;
         font-size: 3rem;
         padding: 20px;
+        
     }
     .nav div.media_button {
         display: block;
@@ -374,6 +375,7 @@ body {
 
 
 /*Profile Card 3*/
+ 
 
 .profile-card-3 {
     font-family: 'Open Sans', Arial, sans-serif;
@@ -427,7 +429,7 @@ body {
 .profile-card-3 .profile {
     border-radius: 50%;
     position: absolute;
-    bottom: 50%;
+    bottom: 45%;
     left: 50%;
     max-width: 100px;
     opacity: 1;
@@ -436,6 +438,7 @@ body {
     -webkit-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
     z-index: 99999;
+     
 }
 
 .profile-card-3 h2 {
@@ -598,7 +601,13 @@ body {
 /* voting result in 2 card ================================== */
 
 .item-img img {
-    padding: 0 35px 0 35px;
+    border-radius: 50%;
+    padding: 5px 80px 5px 80px;
+    margin-top: 20px;
+
+}
+.item-img{
+    width: 400px;
 }
 
 .item-img h2,
@@ -704,9 +713,53 @@ p {
     border: 1px solid white;
 }
 
+/* chats section======================= */
+.text-info #main{
+    margin-left: 200px;
+}
+
+/* =======photo section  */
+
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid lightslategrey;
+  }
+  .team-member h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  .team-member a{
+      border-radius: 20px;
+  }
+  .team{
+      background-color:  white;
+      border-bottom: 1px solid gray;
+      border-top: 1px solid gray;
+
+  }
 
 /* footer section =================== */
-
-.footer-con {
+footer {
     font-size: 20px;
+    text-align: left;
+}
+.ul hr{
+    margin-left: 40px;
+}
+.ul, .social{
+    background-color: lightgray;
+}
+.social a{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+.social  ul{
+    margin-bottom: auto;
 }
